@@ -17,6 +17,8 @@ using System;
     Very easy to break stuff when working in a team if everything is public as there is no error checking.
 */
 
+//I know that a "Player" class quickly gets too bloated as its scope is going to be huge in an MMORPG setting
+//but it was the only example I could think of hahaha
 public class Player : IAttackable
 {
     //Static variables are written with snake case and capitalized.
