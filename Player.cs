@@ -93,7 +93,7 @@ public class Player : IAttackable
         Console.WriteLine($"{_name} learned the skill: {skill.Name}!");
     }
 
-    //Preferrably only use one return statement. Easier to debug especially in longer methods.
+    //Preferrably only use one return statement when the method return is not void. Easier to debug especially in longer methods.
     //I know this can be an easy LINQ oneliner but couldn't come up with a better example hehe
     private bool HasSkill(Skill skill)
     {
