@@ -14,7 +14,7 @@ using System;
     [SerializeField] attribute to make variables appear in inspector instead of using public variables.
 
     Should only use public variables for data objects.
-    Very hard to break stuff when working in a team if everything is public as there is no error checking.
+    Very easy to break stuff when working in a team if everything is public as there is no error checking.
 */
 
 public class Player : IAttackable
